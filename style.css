@@ -1,0 +1,144 @@
+.dflex {
+    display: flex;
+}
+
+.jbetween{
+    justify-content: space-between;
+}
+
+.jcenter {
+    justify-content: center;
+}
+
+.jleft {
+    justify-content: left;
+}
+
+.jright {
+    justify-content: right;
+}
+
+.jevenly {
+    justify-content: space-evenly;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+nav, main, .section-one{
+    padding-top: 24px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+
+ul {
+    flex: auto;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.logo {
+    flex: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: #1f2937;
+    margin: 0;
+}
+
+/************************************************/
+
+main {
+    gap: 48px;
+}
+
+.flex-auto {
+    flex: 1;
+}
+
+.left-side {
+    flex-flow: column wrap;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.right-side {
+    padding: 0;
+    margin: 0;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+h1, p, button{
+    padding: 0;
+    margin: 0;
+}
+
+main h1 {
+    font-size: 48px;
+    font-weight:900;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+
+main p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+}
+
+main button {
+    padding: 5px 36px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/**********************************************************************/
+
+.section-one {
+    background-color: #ffffff;
+}
+
+.section-one h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    flex: 1;
+}
+
+.pbox {
+    gap: 48px;
+}
+
+.a{
+    flex-flow: column wrap;
+    align-items: center;
+}
