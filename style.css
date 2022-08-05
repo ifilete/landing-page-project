@@ -170,12 +170,11 @@ h3 {
 .container.section-3 button {
     padding: 6px 36px;
     background-color: #4882f6;
-    border-color: white;
     color: white;
     font-size: 16px;
     font-weight: bold;
     border-radius: 8px;
-    border: 3px;
+    border: 3px solid white;
 }
 
 footer p {
