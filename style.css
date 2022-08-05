@@ -124,7 +124,7 @@
 .quote {
     background-color: #e5e7eb;
     flex-flow: column wrap;
-    padding: 100px 150px;
+    padding: 100px 200px;
     gap: 24px;
 }
 
@@ -132,6 +132,7 @@ blockquote > p {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    font-weight: 300;
 }
 
 figcaption {
@@ -139,3 +140,49 @@ figcaption {
     font-size: 24px;
     font-weight: bold;
 }
+/*****************************************************************************/
+
+.section-3 {
+    justify-content: space-between;
+    margin: 100px 150px;
+    align-items: center;
+    padding: 48px 96px;
+    background-color: #4882f6;
+    color: white;
+    border-radius: 8px;
+
+}
+
+.under-section-3 {
+    flex-flow: column wrap;
+    gap:8px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container.under-section-3 p {
+    color:#e5e7eb;
+}
+
+.container.section-3 button {
+    padding: 6px 36px;
+    background-color: #4882f6;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 3px;
+}
+
+footer p {
+    text-align: center;
+    color: #e5e7eb;
+    padding: 36px 0;
+    font-size: 18px;
+}
+
+/*****************************************************************************/
